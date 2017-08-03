@@ -1,0 +1,49 @@
+// colors
+
+$color-1: #5b927d; // Patina
+$color-2: #a8ae7e; // Swamp Green
+$color-3: #e7d5a4; // Zombie
+$color-4: #835531; // Potters Clay
+$color-5: #262423; // Dune
+$color-6: #ffffff; // White
+
+// fonts 
+
+$primary-font: 'PT Sans', sans-serif;
+$secondary-font: 'Merriweather', serif;
+
+@font-face {
+  font-family: 'ITC Avant Garde Gothic';
+  src: url('../font/AvantGarde-BookOblique.eot');
+  src: url('../font/AvantGarde-BookOblique.eot?#iefix') format('embedded-opentype'), url('AvantGarde-BookOblique.woff') format('woff'), url('AvantGarde-BookOblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ITC Avant Garde Gothic';
+  src: url('../font/AvantGarde-Book.eot');
+  src: url('../font/AvantGarde-Book.eot?#iefix') format('embedded-opentype'), url('AvantGarde-Book.woff') format('woff'), url('AvantGarde-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ITC Avant Garde Gothic Demi';
+  src: url('../font/AvantGarde-Demi.eot');
+  src: url('../font/AvantGarde-Demi.eot?#iefix') format('embedded-opentype'), url('AvantGarde-Demi.woff') format('woff'), url('AvantGarde-Demi.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ITC Avant Garde Gothic Demi';
+  src: url('../font/AvantGarde-DemiOblique.eot');
+  src: url('../font/AvantGarde-DemiOblique.eot?#iefix') format('embedded-opentype'), url('AvantGarde-DemiOblique.woff') format('woff'), url('AvantGarde-DemiOblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+// Number of projects 
+
+$items: 3 ;
