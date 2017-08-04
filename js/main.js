@@ -183,3 +183,7 @@ jQuery(document).ready(function($){
 		});
 	};
 })(jQuery);
+
+$(function() {
+  objectFitImages('.img-fit');
+});
