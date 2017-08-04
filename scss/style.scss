@@ -459,17 +459,19 @@ li.selected .cd-project-title,
 
 .cd-project-info {
 	display: none;
-	// padding: 4em 0;
+	padding-bottom: 4em;
 	background: url(../img/logo/BG.png);
 	color: tint($color-5, 40%);
 
 	.content-visible & {
 		display: block;
 	}
-	h2{
+	.content-wrapper{
 		width: 90%;
 		max-width: 800px;
 		margin: 0 auto;
+	}
+	h2{
 		line-height: 2;
 		text-align: center;
 		font-size: 1.75em;
@@ -484,6 +486,20 @@ li.selected .cd-project-title,
 		font-size: 0.8125em;
 		text-transform: none;
 		line-height: 1.6;
+	}
+	.info-link{
+		padding: 2em 0 ;
+		text-transform: uppercase;
+		font-size: 0.875em;
+		font-family: 'ITC Avant Garde Gothic';
+		font-weight: normal;
+		font-style: normal;
+		a {
+			color:#a73300;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
 	}
 }
 .logo-wrapper{
