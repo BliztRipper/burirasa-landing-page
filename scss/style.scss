@@ -306,7 +306,7 @@ Projects
 .cd-projects-previews a, 
 .cd-projects .preview-image {
 	/* set a background image for each project */
-	background: $color-1 url(../img/img-1.jpg) no-repeat center center;
+	background: $color-1 url(../img/BRS.jpg) no-repeat center center;
 	background-size: cover;
 	background-color: lighten(black, 75%);
 	background-blend-mode: multiply;
@@ -319,7 +319,7 @@ Projects
 
 .cd-projects-previews li:nth-of-type(2) a, 
 .cd-projects > li:nth-of-type(2) .preview-image {
-	background: $color-2 url(../img/img-3.jpg) no-repeat center center;
+	background: $color-2 url(../img/BRP.jpg) no-repeat center center;
 	background-size: cover;
 	background-color: lighten(black, 75%);
 	background-blend-mode: multiply;
@@ -338,7 +338,7 @@ Projects
 	background-blend-mode: multiply;
 	transition: background-color .5s;
 	&:hover{
-		background-color: gray;
+		background-color: azure;
 		transition: background-color .25s;
 		background-blend-mode: multiply;
 	}
