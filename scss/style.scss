@@ -516,6 +516,15 @@ li.selected .cd-project-title,
 			&:hover{
 				text-decoration: underline;
 			}
+			@media(max-width: 520px){
+				display: block;
+				padding: 10px 0 ;
+			}
+		}
+		@media(max-width: 520px){
+			span{
+				display: none;
+			}
 		}
 	}
 	.social-link{
