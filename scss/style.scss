@@ -316,7 +316,7 @@ Projects
 		transition: background-color .25s;
 		.cd-project-title{
 			color: #335a87;
-			background-color: white;
+			background-color: rgba(255, 255, 255, 0.6);
 			transition: 200ms;
 		}
 	}
@@ -333,7 +333,6 @@ Projects
 		background-color: azure;
 		transition: background-color .25s;
 		.cd-project-title{
-			background-color: white;
 			color: #22878c;
 			transition: 200ms;
 		}
@@ -351,7 +350,6 @@ Projects
 		background-color: azure;
 		transition: background-color .25s;
 		.cd-project-title{
-			background-color: white;
 			color: #d36f24;
 			transition: 200ms;
 			
@@ -705,7 +703,7 @@ li.selected .cd-project-title,
 		font-family: 'ITC Avant Garde Gothic';
 		font-weight: normal;
 		font-style: normal;
-		font-size: 1.2rem;
+		font-size: 2rem;
 		letter-spacing: 1px;
 
 		&::after {
