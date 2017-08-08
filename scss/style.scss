@@ -577,10 +577,13 @@ li.selected .cd-project-title,
 
 
 .project-info-title{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
 	h1{
 		padding-top: 2em;
 		position: relative;
-		text-align: center;
 		font-family: 'ITC Avant Garde Gothic';
 		font-size: 28px;
 		color: #454545;
@@ -589,18 +592,24 @@ li.selected .cd-project-title,
 		text-transform: uppercase;
 	}
 	p {
-		text-align: center;
 		font-family: 'ITC Avant Garde Gothic';
 		font-size: 28px;
 		color: #454545;
 		font-weight: normal;
 		font-style: normal;
+		text-align: left;
 	}
 	.location {
 		display: block; 
 		margin-left: auto;
 		margin-right: auto;
 		padding: 10px 0;
+	}
+	.village-logo{
+		vertical-align: bottom;
+		@media(max-width: 520px){
+			vertical-align: middle;
+		}
 	}
 }
 
